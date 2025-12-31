@@ -1,7 +1,7 @@
 main:
 
   - title: Dynamic surgery video summarization with balancing informativeness and diversity
-    authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan and Shuai Ding* (Corresponding author)
+    authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan, Shuai Ding*
     conference_short: TMI
     conference: IEEE Transactions on Medical Imaging, 2025
     pdf: https://ieeexplore.ieee.org/document/11150651/
@@ -20,7 +20,7 @@ main:
     image: ./assets/img/IETIP.png
 
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
-    authors: Yuxuan Yang, <strong>Hao Wang</strong>*(Corresponding author), Jizhou Wang, Kai Dong, and Shuai Ding*(Corresponding author)
+    authors: Yuxuan Yang, <strong>Hao Wang</strong>*, Jizhou Wang, Kai Dong, Shuai Ding*
     conference_short: TMI
     conference: IEEE Transactions on Medical Imaging, 2024, 43(2):807-819.
     pdf: https://ieeexplore.ieee.org/abstract/document/10269330
@@ -29,7 +29,7 @@ main:
     image: ./assets/img/SPSVR.png
 
   - title: Guided Activity Prediction for Minimally Invasive Surgery Safety Improvement in the Internet of Medical Things
-    authors: <strong>Hao Wang</strong>, Shuai Ding, Shanlin Yang, Chenguang Liu, Shui Yu, and Xi Zheng
+    authors: <strong>Hao Wang</strong>, Shuai Ding*, Shanlin Yang*, Chenguang Liu, Shui Yu, Xi Zheng
     conference_short: IOTJ
     conference: IEEE Internet of Things Journal, 2022, 9(6):4758-4768.
     pdf: https://ieeexplore.ieee.org/document/9524809
@@ -38,7 +38,7 @@ main:
     image: ./assets/img/GuidedNet.png
 
   - title: Hierarchical Physician Recommendation via Diversity-enhanced Matrix Factorization
-    authors: <strong>Hao Wang#</strong>, Shuai Ding#, Yeqing Li, Xiaojian Li, Youtao Zhang
+    authors: <strong>Hao Wang#</strong>, Shuai Ding#, Yeqing Li, Xiaojian Li, Youtao Zhang*
     conference_short: TKDD
     conference: ACM Transactions on Knowledge Discovery from Data, 2020, 15(1):1-17.
     pdf: https://dl.acm.org/doi/10.1145/3418227
