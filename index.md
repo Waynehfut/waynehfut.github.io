@@ -8,8 +8,8 @@ Greetings! I am a lecturer from School of Management, Hefei University of Techno
 
 ## Research Interests
 
-- Medical Image Analysis
-- Healthcare Management
+- **Medical Image Analysis:** Surgical vision, Vision-Language Model
+- **Healthcare Management**
 
 ## News
 
