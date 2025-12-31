@@ -7,7 +7,7 @@ main:
     pdf: https://ieeexplore.ieee.org/document/11150651/
     code: https://github.com/syypretend/DSVS
     bibtex: https://ieeexplore.ieee.org/document/11150651
-    image: https://github.com/syypretend/DSVS/raw/main/DSVS.png
+    image: ./assets/img/DSVS.png
     notes: Early Accept
 
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
@@ -17,7 +17,7 @@ main:
     pdf: https://ieeexplore.ieee.org/abstract/document/10269330
     code: https://github.com/trigger26/SPSVR
     bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
-    image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/42/10419117/10269330/wang1abcd-3321382-large.gif
+    image: ./assets/img/SPSVR.png
 
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
