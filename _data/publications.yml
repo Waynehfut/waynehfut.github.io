@@ -10,6 +10,15 @@ main:
     image: ./assets/img/DSVS.png
     notes: Early Accept
 
+  - title: An Attention Augmentation-Based Transformer Network for Unsupervised Medical Image Registration
+    authors: Chuanhui Li, <strong>Hao Wang*</strong>, Hangyu Bai, Xin Sun, Tao Zhang
+    conference_short: IETIP
+    conference: IET Image Processing, 2025, 19(1):e70154.
+    pdf: https://doi.org/10.1049/ipr2.70154
+    # code: https://github.com/trigger26/SPSVR
+    # bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
+    image: ./assets/img/IETIP.png
+
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
     authors: Yuxuan Yang, <strong>Hao Wang</strong>*(Corresponding author), Jizhou Wang, Kai Dong, and Shuai Ding*(Corresponding author)
     conference_short: TMI
@@ -18,6 +27,24 @@ main:
     code: https://github.com/trigger26/SPSVR
     bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
     image: ./assets/img/SPSVR.png
+
+ - title: Guided Activity Prediction for Minimally Invasive Surgery Safety Improvement in the Internet of Medical Things
+    authors: <strong>Hao Wang</strong>, Shuai Ding, Shanlin Yang, Chenguang Liu, Shui Yu, and Xi Zheng
+    conference_short: IOTJ
+    conference: IEEE Internet of Things Journal, 2022, 9(6):4758-4768.
+    pdf: https://ieeexplore.ieee.org/document/9524809
+    code: https://github.com/waynehfut/guidenet
+    bibtex: https://ieeexplore.ieee.org/document/9524809
+    image: ./assets/img/GuidedNet.png
+
+  - title: Hierarchical Physician Recommendation via Diversity-enhanced Matrix Factorization
+    authors: <strong>Hao Wang#</strong>, Shuai Ding#, Yeqing Li, Xiaojian Li, Youtao Zhang
+    conference_short: TKDD
+    conference: ACM Transactions on Knowledge Discovery from Data, 2020, 15(1):1-17.
+    pdf: https://dl.acm.org/doi/10.1145/3418227
+    # code: https://github.com/trigger26/SPSVR
+    # bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
+    # image: ./assets/img/IETIP.png
 
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
