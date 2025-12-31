@@ -28,7 +28,7 @@ main:
     bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
     image: ./assets/img/SPSVR.png
 
- - title: Guided Activity Prediction for Minimally Invasive Surgery Safety Improvement in the Internet of Medical Things
+  - title: Guided Activity Prediction for Minimally Invasive Surgery Safety Improvement in the Internet of Medical Things
     authors: <strong>Hao Wang</strong>, Shuai Ding, Shanlin Yang, Chenguang Liu, Shui Yu, and Xi Zheng
     conference_short: IOTJ
     conference: IEEE Internet of Things Journal, 2022, 9(6):4758-4768.
