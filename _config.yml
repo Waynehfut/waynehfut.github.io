@@ -20,7 +20,7 @@ twitter: https://x.com/drwanghao
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
+avatar: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JJz4T2EAAAAJ&citpid=5
 favicon: ./assets/img/avatar.png
 favicon_dark: ./assets/img/avatar.png
 
