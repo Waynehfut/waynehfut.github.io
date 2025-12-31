@@ -15,7 +15,7 @@ main:
     conference_short: IETIP
     conference: IET Image Processing, 2025, 19(1):e70154.
     pdf: https://doi.org/10.1049/ipr2.70154
-    code: https://github.com/waynehfut/
+    # code: https://github.com/waynehfut/
     bibtex: https://doi.org/10.1049/ipr2.70154
     image: ./assets/img/IETIP.png
 
@@ -42,7 +42,7 @@ main:
     conference_short: TKDD
     conference: ACM Transactions on Knowledge Discovery from Data, 2020, 15(1):1-17.
     pdf: https://dl.acm.org/doi/10.1145/3418227
-    code: https://github.com/waynehfut/
+    # code: https://github.com/waynehfut/
     bibtex: https://dl.acm.org/doi/10.1145/3418227
     image: ./assets/img/TKDD.png
 
