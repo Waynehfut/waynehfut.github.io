@@ -15,8 +15,8 @@ main:
     conference_short: IETIP
     conference: IET Image Processing, 2025, 19(1):e70154.
     pdf: https://doi.org/10.1049/ipr2.70154
-    # code: https://github.com/trigger26/SPSVR
-    # bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
+    code: 
+    bibtex: 
     image: ./assets/img/IETIP.png
 
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
@@ -42,9 +42,9 @@ main:
     conference_short: TKDD
     conference: ACM Transactions on Knowledge Discovery from Data, 2020, 15(1):1-17.
     pdf: https://dl.acm.org/doi/10.1145/3418227
-    # code: https://github.com/trigger26/SPSVR
-    # bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
-    # image: ./assets/img/IETIP.png
+    code: 
+    bibtex: 
+    image: ./assets/img/TKDD.png
 
 
   # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
