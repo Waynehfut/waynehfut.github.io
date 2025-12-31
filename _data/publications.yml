@@ -1,22 +1,32 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+  - title: Dynamic surgery video summarization with balancing informativeness and diversity
+    authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan and Shuai Ding* (Corresponding author)
+    conference_short: TMI
+    conference: IEEE Transactions on Medical Imaging, 2025
+    pdf: https://ieeexplore.ieee.org/document/11150651/
+    code: https://github.com/syypretend/DSVS
+    bibtex: https://ieeexplore.ieee.org/document/11150651
+    image: https://github.com/syypretend/DSVS/raw/main/DSVS.png
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
+    authors: Yuxuan Yang, <strong>Hao Wang</strong>*(Corresponding author), Jizhou Wang, Kai Dong, and Shuai Ding*(Corresponding author)
+    conference_short: TMI
+    conference: IEEE Transactions on Medical Imaging, 2024, 43(2):807-819.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10269330
+    code: https://github.com/trigger26/SPSVR
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
+    image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/42/10419117/10269330/wang1abcd-3321382-large.gif
+
+
+  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Oral Presentation
+  #   image: ./assets/img/teaser_example.png

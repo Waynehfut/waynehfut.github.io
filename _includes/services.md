@@ -1,6 +1,6 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
@@ -13,4 +13,20 @@
 <ul style="margin:0 0 20px;">
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
   <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
-</ul>
+</ul> -->
+
+## Conference Serveices
+
+- PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)
+- PC member for the 2024 INFORMS Workshop on Data Science (WDS 2024)
+- PC member for 2024 International Conference on Information Systems (ICIS 2024)
+
+## Journal Reviewer for
+
+- IEEE Transactions on Knowledge and Data Engineering
+- ACM Transactions on Knowledge Discovery from Data
+- IEEE Transactions on Network Science and Engineering
+- IEEE Journal of Biomedical and Health Informatics
+- International Journal of Production Research
+- Expert Systems With Applications
+- IEEE Systems Journal
