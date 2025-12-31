@@ -42,14 +42,14 @@ Greetings! I am a lecturer from School of Management, Hefei University of Techno
 
 ## Project
 
-- PI
+#### PI
 
 1. From Jan 2023 to Dec 2025, National Natural Science Foundation of China, Research on Data Driven Intelligent Quality Control Method for Minimally Invasive Surgery, 72201085;
 2. From May 2022 to Apr 2024, Hefei University of Technology, Research on assistant decision-making method of minimally invasive surgery based on multimodal behavior information fusion, JZ2022HGQA0140;
 3. From Apr 2021 to Apr 2024, Department of Science and Technology of Anhui Province, Intelligent Wireless Endoscope, 202103a07020012;
 4. From Sep 2019 to Sep 2020, China Scholarship Council, Integrated Design for Surgical Behavior Intelligent Decision-making Based on Minimally Invasive Surgery Imaging Equipment, 201906690004;
 
-- Participate
+#### Participate
 
 1. From Jan 2023 to Dec 2027, National Natural Science Foundation of China, Data Governance and Cross-domain Data Analysis in the Internet of Healthcare Systems Era, 72293581;
 2. From Jan 2019 to Dec 2021, National Natural Science Foundation of China, Research on the panoramic intelligent decision-making method based on multi-mode cross-border fusion in intelligent medical situation, 91846107;
