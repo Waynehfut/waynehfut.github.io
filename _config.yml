@@ -20,9 +20,9 @@ twitter: https://x.com/drwanghao
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JJz4T2EAAAAJ&citpid=5
-favicon: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JJz4T2EAAAAJ&citpid=5
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/avatar.png
+favicon_dark: ./assets/img/avatar.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
