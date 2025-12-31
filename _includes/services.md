@@ -15,18 +15,20 @@
   <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
 </ul> -->
 
-## Conference Serveices
+<h4 style="margin:0 10px 0;"> Conference Serveices</h4>
+<ul style="margin:0 0 5px;">
+  <li>PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)</li>
+  <li>PC member for the 2024 INFORMS Workshop on Data Science (WDS 2024)</li>
+  <li>PC member for 2024 International Conference on Information Systems (ICIS 2024)</li>
+</ul>
 
-- PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)
-- PC member for the 2024 INFORMS Workshop on Data Science (WDS 2024)
-- PC member for 2024 International Conference on Information Systems (ICIS 2024)
-
-## Journal Reviewer for
-
-- IEEE Transactions on Knowledge and Data Engineering
-- ACM Transactions on Knowledge Discovery from Data
-- IEEE Transactions on Network Science and Engineering
-- IEEE Journal of Biomedical and Health Informatics
-- International Journal of Production Research
-- Expert Systems With Applications
-- IEEE Systems Journal
+<h4 style="margin:0 10px 0;"> Journal Reviewer for </h4>
+<ul style="margin:0 0 5px;">
+  <li>IEEE Transactions on Knowledge and Data Engineering</li>
+  <li>ACM Transactions on Knowledge Discovery from Data</li>
+  <li>IEEE Transactions on Network Science and Engineering</li>
+  <li>IEEE Journal of Biomedical and Health Informatics</li>
+  <li>International Journal of Production Research</li>
+  <li>Expert Systems With Applications</li>
+  <li>IEEE Systems Journal</li>
+</ul>
