@@ -19,6 +19,16 @@ main:
     bibtex: https://doi.org/10.1049/ipr2.70154
     image: ./assets/img/IETIP.png
 
+  - title: Current Development Status, Challenges, and Countermeasures of Digital Healthcare in China
+    authors: Shuai Ding, Congying Hao, <strong>Hao Wang*</strong>, Jinge Liu, Yue Wang, Shanlin Yang
+    conference_short: SSCAE
+    conference:  Strategic Study of CAE, 2025, 27(6):1-8.
+    pdf: https://doi.org/10.15302/J-SSCAE-2025.02.011
+    # code: https://github.com/waynehfut/
+    bibtex: https://doi.org/10.15302/J-SSCAE-2025.02.011
+    image: ./assets/img/JSSCAE.png
+    # notes: In Chinese
+
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
     authors: Yuxuan Yang, <strong>Hao Wang</strong>*, Jizhou Wang, Kai Dong, Shuai Ding*
     conference_short: TMI
