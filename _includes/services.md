@@ -17,18 +17,18 @@
 
 <h4 style="margin:0 10px 0;"> Conference Serveices</h4>
 <ul style="margin:0 0 5px;">
-  <li>PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)</li>
-  <li>PC member for the 2024 INFORMS Workshop on Data Science (WDS 2024)</li>
-  <li>PC member for 2024 International Conference on Information Systems (ICIS 2024)</li>
+  <li><a href="https://meetings.informs.org/wordpress/seattle2024/data-science-workshop/"><autocolor>PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)</autocolor></a></li>
+  <li><a href="https://meetings.informs.org/wordpress/annual/data-science-workshop/"><autocolor>PC member for the 2024 INFORMS Workshop on Data Science (WDS 2024)</autocolor></a></li>
+  <li><a href="https://icis2024.aisconferences.org/"><autocolor>PC member for 2024 International Conference on Information Systems (ICIS 2024)</autocolor></a></li>
 </ul>
 
 <h4 style="margin:0 10px 0;"> Journal Reviewer for </h4>
 <ul style="margin:0 0 5px;">
-  <li>IEEE Transactions on Knowledge and Data Engineering</li>
-  <li>ACM Transactions on Knowledge Discovery from Data</li>
-  <li>IEEE Transactions on Network Science and Engineering</li>
-  <li>IEEE Journal of Biomedical and Health Informatics</li>
-  <li>International Journal of Production Research</li>
-  <li>Expert Systems With Applications</li>
-  <li>IEEE Systems Journal</li>
+  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69"><autocolor>IEEE Transactions on Knowledge and Data Engineering</autocolor></a></li>
+  <li><a href="https://dl.acm.org/journal/tkdd"><autocolor>ACM Transactions on Knowledge Discovery from Data</autocolor></a></li>
+  <li><a href="https://xplorestaging.ieee.org/xpl/aboutJournal.jsp?punumber=6488902"><autocolor>IEEE Transactions on Network Science and Engineering</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020"><autocolor>IEEE Journal of Biomedical and Health Informatics</autocolor></a></li>
+  <li><a href="https://www.tandfonline.com/journals/tprs20"><autocolor>International Journal of Production Research</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications"><autocolor>Expert Systems With Applications</autocolor></a></li>
+  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003"><autocolor>IEEE Systems Journal</autocolor></a></li>
 </ul>
