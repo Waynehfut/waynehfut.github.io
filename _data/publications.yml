@@ -23,9 +23,9 @@ main:
     authors: Shuai Ding, Congying Hao, <strong>Hao Wang*</strong>, Jinge Liu, Yue Wang, Shanlin Yang
     conference_short: SSCAE
     conference:  Strategic Study of CAE, 2025, 27(6):1-8.
-    pdf: https://doi.org/10.15302/J-SSCAE-2025.02.011
+    pdf: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2025.02.011
     # code: https://github.com/waynehfut/
-    bibtex: https://doi.org/10.15302/J-SSCAE-2025.02.011
+    bibtex: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2025.02.011
     image: ./assets/img/JSSCAE.png
     # notes: In Chinese
 
