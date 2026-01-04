@@ -37,7 +37,7 @@
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
       {% if link.add %} 
-      <strong> <i style="color:#2BACDB">{{ link.add }}</i></strong>
+      <strong> <i style="color:#28D728">{{ link.add }}</i></strong>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
