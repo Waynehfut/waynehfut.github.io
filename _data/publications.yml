@@ -27,7 +27,7 @@ main:
     # code: https://github.com/waynehfut/
     bibtex: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2025.02.011
     image: ./assets/img/JSSCAE.png
-    # notes: In Chinese
+    add: In Chinese
 
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
     authors: Yuxuan Yang, <strong>Hao Wang</strong>*, Jizhou Wang, Kai Dong, Shuai Ding*
