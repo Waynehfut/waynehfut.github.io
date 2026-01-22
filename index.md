@@ -6,7 +6,7 @@ layout: homepage
 
 I am a lecturer from School of Management, Hefei University of Technology. Before that, I received my a Ph.D. degree in Management Science and Engineering from the Hefei University of Technology under the supervision of Prof. Shanlin Yang in 2021. Previously, I worked as a visiting scholar (2019-2020) at the University of Pittsburgh under the supervision of Prof. Youtao Zhang and received my B.S. degree in Software Engineering from the Hefei University of Technology in 2016.
 
-<strong> <i style="color:#e74d3c">Our team currently works on the topic of surgical decision making and quality assessment with vision-language model. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me.</i></strong>
+<strong style="color:#e74d3c">Our team currently works on the topic of surgical decision making and quality assessment with vision-language model. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me.</strong>
 
 
 ## Research Interests
