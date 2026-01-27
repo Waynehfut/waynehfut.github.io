@@ -4,10 +4,10 @@ main:
     authors: <strong>Hao Wang</strong>, Yutao Zhang, Yuxuan Yang, Yuanbo Zhu, Rui Xu
     conference_short: IJCARS
     conference: International Journal of Computer Assisted Radiology and Surgery, 2026
-    pdf: .
+    pdf: https://github.com/Zhang-Yutao/SMIL-Framework
     code: https://github.com/Zhang-Yutao/SMIL-Framework
-    bibtex: .
-    image: ./assets/img/DSVS.png
+    bibtex: https://github.com/Zhang-Yutao/SMIL-Framework
+    image: ./assets/img/SMIL.png
     notes: Early Accept
 
   - title: Dynamic surgery video summarization with balancing informativeness and diversity
