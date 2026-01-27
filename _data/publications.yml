@@ -1,5 +1,15 @@
 main:
 
+  - title: CVS Assessment via Distillation-based Self-Supervised and Multiple Instance Learning in Laparoscopic Cholecystectomy
+    authors: <strong>Hao Wang</strong>, Yutao Zhang, Yuxuan Yang, Yuanbo Zhu, Rui Xu
+    conference_short: IJCARS
+    conference: International Journal of Computer Assisted Radiology and Surgery, 2026
+    pdf: .
+    code: https://github.com/Zhang-Yutao/SMIL-Framework
+    bibtex: .
+    image: ./assets/img/DSVS.png
+    notes: Early Accept
+
   - title: Dynamic surgery video summarization with balancing informativeness and diversity
     authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan, Shuai Ding*
     conference_short: TMI
