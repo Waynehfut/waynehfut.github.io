@@ -296,7 +296,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:1100px;
   margin:0 auto;
 }
 
@@ -432,7 +432,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:750px;
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -594,4 +594,37 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+.news-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.news-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.news-scroll::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+  .news-scroll::-webkit-scrollbar-thumb {
+    background: #555;
+  }
+  
+  .news-scroll::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
 }

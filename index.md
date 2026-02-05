@@ -16,6 +16,8 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 
 ## News
 
+<div class="news-scroll">
+
 - **[2026/01/27]** One paper accepted by IJCARS, congratulations to Yutao.
 - **[2025/08/21]** One paper accepted by IEEE TMI.
 - **[2025/07/20]** One paper accepted by IET Image Processing.
@@ -28,6 +30,8 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 - **[2020/10/22]** Awarded National Scholarship.
 - **[2020/07/17]** One paper accepted by ACM TKDD.
 - **[2019/05/03]** Received funding from the National Scholarship Council.
+
+</div>
 
 
 {% include_relative _includes/publications.md %}
