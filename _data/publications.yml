@@ -10,15 +10,14 @@ main:
     image: ./assets/img/SMIL.png
     notes: Early Accept
 
-  - title: Dynamic surgery video summarization with balancing informativeness and diversity
+  - title: Dynamic Surgery Video Summarization With Balancing Informativeness and Diversity
     authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan, Shuai Ding*
     conference_short: TMI
-    conference: IEEE Transactions on Medical Imaging, 2025
+    conference: IEEE Transactions on Medical Imaging, 2026, 45(2):620-631
     pdf: https://ieeexplore.ieee.org/document/11150651/
     code: https://github.com/syypretend/DSVS
     bibtex: https://ieeexplore.ieee.org/document/11150651
     image: ./assets/img/DSVS.png
-    notes: Early Accept
 
   - title: An Attention Augmentation-Based Transformer Network for Unsupervised Medical Image Registration
     authors: Chuanhui Li, <strong>Hao Wang*</strong>, Hangyu Bai, Xin Sun, Tao Zhang
