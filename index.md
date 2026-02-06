@@ -16,10 +16,11 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 
 ## News
 
+- **[2021/02/06]** One paper accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen Chen
 - **[2026/01/27]** One paper accepted by IJCARS, congratulations to Yutao.
 - **[2025/08/21]** One paper accepted by IEEE TMI.
 - **[2025/07/20]** One paper accepted by IET Image Processing.
-- **[2025/05/15]** One paper accepted by Strategic Study of CAE.
+- **[2025/05/15]** One paper accepted by Strategic Study of CAE, congratulations to Congying
 - **[2024/12/07]** Received the funding from the Ministry of Science and Technology of China.
 - **[2023/09/25]** One paper accepted by IEEE TMI.
 - **[2022/09/08]** Received the funding from the National Natural Science Foundation of China.
