@@ -1,5 +1,16 @@
 main:
 
+  - title: Research on Chronic Disease Comorbidity Decision-making Support Driven by Large Language Models in the Internet of Healthcare System Environment
+    authors: <strong>Hao Wang*</strong>, Wen Chen, Xinke Li, Deguang Wang
+    conference_short: FSTEM
+    conference: Frontiers of Science and Technology of Engineering Management, 2026
+    # pdf: https://github.com/Zhang-Yutao/SMIL-Framework
+    # code: https://github.com/Zhang-Yutao/SMIL-Framework
+    # bibtex: https://github.com/Zhang-Yutao/SMIL-Framework
+    image: ./assets/img/lsc.png
+    notes: Early Accept
+    add: In Chinese
+
   - title: CVS Assessment via Distillation-based Self-Supervised and Multiple Instance Learning in Laparoscopic Cholecystectomy
     authors: <strong>Hao Wang*</strong>, Yutao Zhang, Yuxuan Yang, Yuanbo Zhu, Rui Xu
     conference_short: IJCARS
