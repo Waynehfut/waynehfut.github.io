@@ -32,8 +32,6 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
-
 ## Students
 
 - Yue Wang(2022.Fall-2023.Spring)(Now Ph.D. in HFUT)
@@ -44,6 +42,8 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 - Zhipeng Xu(2025.Fall-)
 - Zhaoxin Wang(2025.Fall-)
 - Mengyuan Guo(2025.Fall-)
+
+
 
 ## Project
 
@@ -62,8 +62,11 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 - From Jan 2021 to Dec 2023, National Natural Science Foundation of China, Research on dynamic active service mode based on deep aggregation of multimodal healthcare big data, 72071063;
 - From Jan 2016 to Dec 2021, National Natural Science Foundation of China, Research on cloud service recommendation method based on dynamic trust modeling in social network environment, 71571058.
 
+{% include_relative _includes/services.md %}
+
 ## Award
 
+- Special Prize of Anhui Provincial Teaching Achievement (2025)
 - National Scholarship for Postgraduate (2020);
 - 3rd Place in [CholecTriplet 2021: Surgical Action Triplet Recognition](https://cholectriplet2021.grand-challenge.org/) - A Sub Challenge of the 24th International Conference on Medical Image Computing & Computer Assisted Intervention (MICCAI) with [Team:HFUT-MedIA (Yuxuan Yang, Hao Wang, Yuanbo Zhu, and Prof. Shuai Ding)](https://cholectriplet2021.grand-challenge.org/results/).
 
