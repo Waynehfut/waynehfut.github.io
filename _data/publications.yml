@@ -15,9 +15,9 @@ main:
     authors: <strong>Hao Wang*</strong>, Yutao Zhang, Yuxuan Yang, Yuanbo Zhu, Rui Xu
     conference_short: IJCARS
     conference: International Journal of Computer Assisted Radiology and Surgery, 2026
-    pdf: https://github.com/Zhang-Yutao/SMIL-Framework
+    pdf: https://doi.org/10.1007/s11548-026-03580-9
     code: https://github.com/Zhang-Yutao/SMIL-Framework
-    bibtex: https://github.com/Zhang-Yutao/SMIL-Framework
+    bibtex: https://doi.org/10.1007/s11548-026-03580-9
     image: ./assets/img/SMIL.png
     notes: Early Accept
 
