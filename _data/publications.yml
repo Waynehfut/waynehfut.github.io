@@ -4,9 +4,9 @@ main:
     authors: <strong>Hao Wang*</strong>, Wen Chen, Xinke Li, Deguang Wang
     conference_short: FSTEM
     conference: Frontiers of Science and Technology of Engineering Management, 2026
-    # pdf: https://github.com/Zhang-Yutao/SMIL-Framework
-    # code: https://github.com/Zhang-Yutao/SMIL-Framework
-    # bibtex: https://github.com/Zhang-Yutao/SMIL-Framework
+    pdf: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
+    code: https://github.com/TeamofMIS/Chronic-Disease-Management
+    bibtex: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
     image: ./assets/img/lsc.png
     notes: Early Accept
     add: In Chinese
