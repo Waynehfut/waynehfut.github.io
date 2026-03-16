@@ -34,7 +34,6 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 
 ## Students
 
-- Yue Wang(2022.Fall-2023.Spring)(Now Ph.D. in HFUT)
 - Yutao Zhang(2023.Fall-)
 - Wen Chen(2023.Fall-)
 - Rui Xu(2024.Fall-)
@@ -42,8 +41,6 @@ I am a lecturer from School of Management, Hefei University of Technology. Befor
 - Zhipeng Xu(2025.Fall-)
 - Zhaoxin Wang(2025.Fall-)
 - Mengyuan Guo(2025.Fall-)
-
-
 
 ## Project
 
