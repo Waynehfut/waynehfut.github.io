@@ -29,6 +29,7 @@ main:
     code: https://github.com/syypretend/DSVS
     bibtex: https://ieeexplore.ieee.org/document/11150651
     image: ./assets/img/DSVS.png
+    notes: Highlight by TMI
 
   - title: An Attention Augmentation-Based Transformer Network for Unsupervised Medical Image Registration
     authors: Chuanhui Li, <strong>Hao Wang*</strong>, Hangyu Bai, Xin Sun, Tao Zhang
