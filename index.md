@@ -6,7 +6,7 @@ layout: homepage
 
 I am a lecturer from School of Management, Hefei University of Technology. Before that, I received my a Ph.D. degree in Management Science and Engineering from the Hefei University of Technology under the supervision of Prof. Shanlin Yang in 2021. Previously, I worked as a visiting scholar (2019-2020) at the University of Pittsburgh under the supervision of Prof. Youtao Zhang and received my B.S. degree in Software Engineering from the Hefei University of Technology in 2016.
 
-<strong style="color:#e74d3c">🔥🔥🔥 Our team currently works on the topic of surgical decision making and quality assessment with vision-language model and multi-agent cooperative decision-making. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me.  我的团队正在聚焦于使用视觉语言模型和多智能体协同决策机制解决手术辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
+<strong style="color:#e74d3c">🔥🔥🔥 Our team currently works on the topic of clinical decision making and quality assessment with vision-language model, large language model and multi-agent cooperation. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me.  我的团队正在聚焦于使用视觉语言模型、大语言模型和多智能体等技术设计决策方法，解决临床辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
 
 
 ## Research Interests
