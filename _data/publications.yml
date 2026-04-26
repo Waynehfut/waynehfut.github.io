@@ -7,7 +7,7 @@ main:
     pdf: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
     code: https://github.com/TeamofMIS/Chronic-Disease-Management
     bibtex: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
-    image: ./assets/img/lsc.png
+    image: /assets/img/lsc.png
     notes: Early Accept
     add: In Chinese
 
@@ -18,7 +18,7 @@ main:
     pdf: https://doi.org/10.1007/s11548-026-03580-9
     code: https://github.com/Zhang-Yutao/SMIL-Framework
     bibtex: https://doi.org/10.1007/s11548-026-03580-9
-    image: ./assets/img/SMIL.png
+    image: /assets/img/SMIL.png
     notes: Early Accept
 
   - title: Dynamic Surgery Video Summarization With Balancing Informativeness and Diversity
@@ -28,7 +28,7 @@ main:
     pdf: https://ieeexplore.ieee.org/document/11150651/
     code: https://github.com/syypretend/DSVS
     bibtex: https://ieeexplore.ieee.org/document/11150651
-    image: ./assets/img/DSVS.png
+    image: /assets/img/DSVS.png
     notes: Highlight by TMI
 
   - title: An Attention Augmentation-Based Transformer Network for Unsupervised Medical Image Registration
@@ -38,7 +38,7 @@ main:
     pdf: https://doi.org/10.1049/ipr2.70154
     # code: https://github.com/waynehfut/
     bibtex: https://doi.org/10.1049/ipr2.70154
-    image: ./assets/img/IETIP.png
+    image: /assets/img/IETIP.png
 
   - title: Current Development Status, Challenges, and Countermeasures of Digital Healthcare in China
     authors: Shuai Ding, Congying Hao, <strong>Hao Wang*</strong>, Jinge Liu, Yue Wang, Shanlin Yang
@@ -47,7 +47,7 @@ main:
     pdf: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2025.02.011
     # code: https://github.com/waynehfut/
     bibtex: https://www.engineering.org.cn/sscae/CN/10.15302/J-SSCAE-2025.02.011
-    image: ./assets/img/JSSCAE.png
+    image: /assets/img/JSSCAE.png
     add: In Chinese
 
   - title: Semantic-Preserving Surgical Video Retrieval With Phase and Behavior Coordinated Hashing
@@ -57,7 +57,7 @@ main:
     pdf: https://ieeexplore.ieee.org/abstract/document/10269330
     code: https://github.com/trigger26/SPSVR
     bibtex: https://ieeexplore.ieee.org/abstract/document/10269330
-    image: ./assets/img/SPSVR.png
+    image: /assets/img/SPSVR.png
 
   - title: Guided Activity Prediction for Minimally Invasive Surgery Safety Improvement in the Internet of Medical Things
     authors: <strong>Hao Wang</strong>, Shuai Ding*, Shanlin Yang*, Chenguang Liu, Shui Yu, Xi Zheng
@@ -66,7 +66,7 @@ main:
     pdf: https://ieeexplore.ieee.org/document/9524809
     code: https://github.com/waynehfut/guidenet
     bibtex: https://ieeexplore.ieee.org/document/9524809
-    image: ./assets/img/GuidedNet.png
+    image: /assets/img/GuidedNet.png
 
   - title: Hierarchical Physician Recommendation via Diversity-enhanced Matrix Factorization
     authors: <strong>Hao Wang#</strong>, Shuai Ding#, Yeqing Li, Xiaojian Li, Youtao Zhang*
@@ -75,16 +75,4 @@ main:
     pdf: https://dl.acm.org/doi/10.1145/3418227
     # code: https://github.com/waynehfut/
     bibtex: https://dl.acm.org/doi/10.1145/3418227
-    image: ./assets/img/TKDD.png
-
-
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+    image: /assets/img/TKDD.png

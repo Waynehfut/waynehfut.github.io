@@ -8,29 +8,29 @@
     <meta name="description" content="{{ site.title }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | prepend: site.baseurl }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | prepend: site.baseurl }}" type="image/png" />
+    <script src="{{ '/assets/js/favicon-switcher.js' | prepend: site.baseurl }}" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="{{ '/assets/css/font_sans_serif.css' | prepend: site.baseurl }}">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="{{ '/assets/css/font.css' | prepend: site.baseurl }}">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | prepend: site.baseurl }}">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | prepend: site.baseurl }}">
     {% endif %}
-    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="{{ '/assets/css/nav.css' | prepend: site.baseurl }}">
 
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <script type="text/javascript" src="{{ '/assets/js/jquery.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/favicon-switcher.js' | prepend: site.baseurl }}" type="application/javascript"></script>
 
     <script>
       function myFunction() {
@@ -64,7 +64,7 @@
     </div>
     
 
-    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | prepend: site.baseurl }}"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
@@ -197,6 +197,6 @@
         <br>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ '/assets/js/scale.fix.js' | prepend: site.baseurl }}"></script>
   </body>
 </html>
