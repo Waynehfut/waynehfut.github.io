@@ -646,9 +646,9 @@ footer {
   box-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }
 
-// .announcement-box strong {
-//   color: #9e554d;
-// }
+.announcement-box strong {
+  color: #9e554d;
+}
 
 /* Dark mode for announcement box */
 @media (prefers-color-scheme: dark) {
@@ -658,7 +658,7 @@ footer {
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
   }
   
-  // .announcement-box strong {
-  //   color: #ff6b5a69;
-  // }
+  .announcement-box strong {
+    color: #ff6b5a69;
+  }
 }
