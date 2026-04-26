@@ -12,8 +12,8 @@ I am a lecturer from School of Management, Hefei University of Technology. Previ
 My research interests include **Medical Image Analysis** (Surgical Vision, Vision-Language Model) and **Healthcare Management** (Decision Support System, Clinical Diagnosis Support).
 
 
-<div style="border-left: 4px solid #FF5F05; padding: 10px 16px; background-color: #fafafa; color: #333; border-radius: 0 4px 4px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.07);">
-<strong style="color:#c0392b;">🔥🔥🔥 Our team currently works on the topic of clinical decision making and quality assessment with vision-language model, large language model and multi-agent cooperation. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me. 我的团队正在聚焦于使用视觉语言模型、大语言模型和多智能体等技术设计决策方法，解决临床辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
+<div class="announcement-box">
+<strong>🔥🔥🔥 Our team currently works on the topic of clinical decision making and quality assessment with vision-language model, large language model and multi-agent cooperation. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me. 我的团队正在聚焦于使用视觉语言模型、大语言模型和多智能体等技术设计决策方法，解决临床辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
 </div>
 
 <br>
