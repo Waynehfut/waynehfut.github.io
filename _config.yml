@@ -2,6 +2,7 @@
 title: Hao Wang
 position: Ph.D. 
 affiliation: School of Management, Hefei University of Technology
+affiliation_link: https://som.hfut.edu.cn/
 email: haowang@hfut.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -9,6 +10,8 @@ email: haowang@hfut.edu.cn
 keywords: Hao Wang, Hefei University of Technology
 description: Focus research on medical image analytics, healthcare management. 
 
+# The option is used to show the last update time.
+enable_last_update: false
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -20,14 +23,15 @@ github_link: https://github.com/waynehfut
 twitter: https://x.com/drwanghao
 
 # Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# "favicon" and "favicon_dark" are used to indicate the light and dark modes, respectively. 
 avatar: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=JJz4T2EAAAAJ&citpid=5
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+footnote: This is Hao Wang's homepage. Please feel free to contact me via the mail for any question.
+footnote_link: 
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
@@ -52,7 +56,6 @@ exclude:
   - README.md
   - README_zh_Hans.md
   - README_zh_Hant.md
-  - README_de.md
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/

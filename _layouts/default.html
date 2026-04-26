@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{ site.affiliation }}</title>
+    <title>{{ page.title }} | {{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="{{ site.title }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="../{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="../{{ site.favicon }}" type="image/png" />
+    <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="../assets/css/font_sans_serif.css">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="../assets/css/font.css">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/publications.css">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    <link rel="stylesheet" href="../assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="../assets/css/publications-no-dark-mode.css">
     {% endif %}
-    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
 
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <script type="text/javascript" src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
+    
+    <script type="text/javascript">
+      function toggle_vis(id) {
+          var e = document.getElementById(id);
+          if (e.style.display == 'none')
+              e.style.display = 'inline';
+          else
+              e.style.display = 'none';
+      }
+   </script>
 
-    <script>
+   <script>
       function myFunction() {
         var x = document.getElementById("myLinks");
         var icon = document.querySelector('.topnav a.icon');
@@ -40,18 +50,13 @@
         icon.classList.toggle('active');
       }
    </script>
-
   </head>
   <body>
     
     <div class="topnav">
 
       <div id="myLinks">
-      {% if page.url == '/' or page.url == '' %}
-      {% include navigation-home.md %}
-      {% else %}
       {% include navigation.md %}
-      {% endif %}
       </div>
 
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -64,7 +69,7 @@
     </div>
     
 
-    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <script src="../assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
@@ -165,19 +170,7 @@
       </small> 
       {% endif %}
 
-      {% if site.footnote %}
-      <div style="font: 12px/1.2 Crimson Pro, serif">
-        <br>
-        <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
-      </div>
-      {% endif %}
-
       <br>
-      {% if site.clustrmaps_id %}
-      <div style="width:100px; pointer-events: none;">
-      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=043361&w=153&t=n&d={{ site.clustrmaps_id }}&co=ffffff&cmo=3eb7f0&ct=043361'></script>
-      </div>
-      {% endif %}
       
       </section>
       <footer>
