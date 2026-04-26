@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: 
+    url:
   - title: "Publications"
     url: publications/
   - title: "Students"
@@ -11,4 +11,3 @@ main:
     url: services/
   - title: "Teaching"
     url: teaching/
-    right: true
