@@ -44,15 +44,6 @@
   }
 }
 
-.topnav img {
-  display: none;
-}
-
-/* Desktop navigation - hidden */
-.topnav a.normal {
-  display: none;
-}
-
 /* Mobile styles - hamburger menu */
 @media print, screen and (max-width: 960px) {
   .topnav {
@@ -108,7 +99,6 @@
     border-bottom: none;
   }
 
-  /* Hamburger icon */
   .topnav a.icon {
     display: block;
     padding: 16px 20px;
@@ -160,17 +150,6 @@
   .topnav a.icon.active .icon-xmark {
     opacity: 1;
     transform: rotate(0deg);
-  }
-
-  .topnav a.right {
-    display: block;
-    color: #1c4480;
-    float: none;
-    padding: 16px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    text-align: left;
-    margin-right: 0;
   }
 
   .topnav a.normal.active {

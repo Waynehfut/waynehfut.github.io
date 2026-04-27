@@ -7,7 +7,7 @@ permalink: /
 
 <h2 style="margin: 60px 0px 10px;"></h2>
 
-I am a lecturer from School of Management, Hefei University of Technology. Previously, I received my Ph.D. in Management Science and Engineering from the Hefei University of Technology under the supervision of Prof. Shanlin Yang in 2021. I worked as a visiting scholar (2019-2020) at the University of Pittsburgh under the supervision of Prof. Youtao Zhang and received my B.S. in Software Engineering from the Hefei University of Technology in 2016.
+I am a lecturer(assistant professor) from School of Management, Hefei University of Technology. Previously, I received my Ph.D. in Management Science and Engineering from the Hefei University of Technology under the supervision of Prof. Shanlin Yang in 2021. I worked as a visiting scholar (2019-2020) at the University of Pittsburgh under the supervision of Prof. Youtao Zhang and received my B.S. in Software Engineering from the Hefei University of Technology in 2016.
 
 My research interests include **Medical Image Analysis** (Surgical Vision, Vision-Language Model) and **Healthcare Management** (Decision Support System, Clinical Diagnosis Support).
 

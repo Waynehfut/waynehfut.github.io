@@ -659,6 +659,35 @@ footer {
   }
   
   .announcement-box strong {
-    color: #ff6b5a69;
+    color: #ff6b5a;
+  }
+}
+
+/* Page section styling */
+.page-section {
+  margin-top: 60px;
+}
+
+.page-section h2 {
+  margin: 0 0 20px 0;
+}
+
+.page-section .section-subtitle {
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+}
+
+.page-section ul {
+  margin: 0 0 20px 0;
+}
+
+.page-section ul li {
+  margin-bottom: 10px;
+}
+
+/* Dark mode for page sections */
+@media (prefers-color-scheme: dark) {
+  .page-section .section-subtitle {
+    color: #3eb7f0;
   }
 }
