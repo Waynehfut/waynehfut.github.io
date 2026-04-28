@@ -33,3 +33,11 @@ My research interests include **Medical Image Analysis** (Surgical Vision, Visio
 - **[2020/10/22]** Awarded National Scholarship
 - **[2020/07/17]** One paper accepted by ACM TKDD
 - **[2019/05/03]** Received funding from the National Scholarship Council
+
+## Select Talks
+
+- **[2026/03/21]** A invited talk by Anhui Preventive Medicine Association about Generative AI-Powered Intelligent Surgical Decision Support
+- **[2025/07/13]** A invited talk by POMS China 2025 about Dynamic surgery video summarization with balancing informativeness and diversity
+- **[2024/12/11]** A invited talk by Shanghai Jiaotong University School of Medicine about Cross domain healthcare data governance
+- **[2023/12/08]** A invited talk by Chinese Society of Biomedical Engineering about smart surgical decision
+- **[2022/08/14]** A invited talk by Renmin University of China about Deep learning in medical image analysis
