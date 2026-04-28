@@ -55,7 +55,6 @@
   <body>
     
     <div class="topnav">
-
       <div id="myLinks">
       {% include navigation.md %}
       </div>
@@ -192,5 +191,15 @@
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | prepend: site.baseurl }}"></script>
+    <script>
+      window.addEventListener('scroll', function() {
+        const nav = document.querySelector('.topnav');
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+    </script>
   </body>
 </html>

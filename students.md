@@ -9,6 +9,7 @@ permalink: /students/
   <ul>
     <li>Yutao Zhang (2023.Fall-)</li>
     <li>Wen Chen (2023.Fall-)</li>
+    <li>Yefeng Wang (2023.Fall-)</li>
     <li>Rui Xu (2024.Fall-)</li>
     <li>Xinke Li (2024.Fall-)</li>
     <li>Zhipeng Xu (2025.Fall-)</li>

@@ -22,6 +22,7 @@ permalink: /teaching/
 
   <h2>Select Talks</h2>
   <ul>
+   <li>2026/03/21 A invited talk by Anhui Preventive Medicine Association about Generative AI-Powered Intelligent Surgical Decision Support</li>
     <li>2025/07/13 A invited talk by POMS China 2025 about Dynamic surgery video summarization with balancing informativeness and diversity</li>
     <li>2024/12/11 A invited talk by Shanghai Jiaotong University School of Medicine about Cross domain healthcare data governance</li>
     <li>2023/12/08 A invited talk by Chinese Society of Biomedical Engineering about smart surgical decision</li>
