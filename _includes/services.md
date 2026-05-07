@@ -18,4 +18,5 @@
   <li><a href="https://www.tandfonline.com/journals/tprs20">International Journal of Production Research</a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems With Applications</a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003">IEEE Systems Journal</a></li>
+  <li><a href="https://www.tandfonline.com/journals/tjcd20">Journal of Control and Decision</a></li>
 </ul>
