@@ -13,16 +13,17 @@ My research interests include **Medical Image Analysis** (Surgical Vision, Visio
 
 
 <div class="announcement-box">
-<strong>🔥🔥🔥 Our team currently works on the topic of clinical decision making and quality assessment with vision-language model, large language model and multi-agent cooperation. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me. 我的团队正在聚焦于使用视觉语言模型、大语言模型和多智能体等技术设计决策方法，解决临床辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
+<strong>Our team currently works on the topic of clinical decision making and quality assessment with vision-language model, large language model and multi-agent cooperation. If you are or will become a student of HFUT and are interested in my research, please feel free to mail me. 我的团队正在聚焦于使用视觉语言模型、大语言模型和多智能体等技术设计决策方法，解决临床辅助决策和质量评估的问题，如果你是或即将成为合肥工业大学的学生且对我的研究感兴趣的话，欢迎通过邮件联系我（haowang@hfut.edu.cn）。</strong>
 </div>
 
 <br>
 
 ## News
 
-- **[2026/02/06]** 🎉 One paper on multi-agent cooperative decision-making accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen
-- **[2026/01/27]** 🎉 One paper accepted by IJCARS, congratulations to Yutao
-- **[2025/08/21]** 🎉 One paper accepted by IEEE TMI
+- **[2026/05/21]** 🎉 Congratulations to Yutao, Wen and Yefeng on successfully defending their theses. Yutao will join [ZTO Express](https://www.zto.com/), Wen will join [Tencent](https://www.tencent.com/zh-cn/), and Yefeng will join [YanFeng](https://www.yanfeng.com/en).
+- **[2026/02/06]** One paper on multi-agent cooperative decision-making accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen
+- **[2026/01/27]** One paper accepted by IJCARS, congratulations to Yutao
+- **[2025/08/21]** One paper accepted by IEEE TMI
 - **[2025/07/20]** One paper accepted by IET Image Processing
 - **[2025/05/15]** One paper accepted by Strategic Study of CAE, congratulations to Congying
 - **[2024/12/07]** Received the funding from the Ministry of Science and Technology of China
