@@ -58,4 +58,4 @@ exclude:
   - README_zh_Hant.md
   - LICENSE
   - minimal-light.gemspec
-  - html_source_file/
+

@@ -1,11 +1,7 @@
 ---
-layout: homepage
+layout: default
 permalink: /
 ---
-
-<h1 id="about-me"></h1>
-
-<h2 style="margin: 60px 0px 10px;"></h2>
 
 I am a lecturer(assistant professor) from School of Management, Hefei University of Technology. Previously, I received my Ph.D. in Management Science and Engineering from the Hefei University of Technology under the supervision of Prof. Shanlin Yang in 2021. I worked as a visiting scholar (2019-2020) at the University of Pittsburgh under the supervision of Prof. Youtao Zhang and received my B.S. in Software Engineering from the Hefei University of Technology in 2016.
 

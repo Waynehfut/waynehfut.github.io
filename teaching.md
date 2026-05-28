@@ -5,9 +5,7 @@ permalink: /teaching/
 ---
 
 <div class="page-section">
-  
-
- <h2>Teaching</h2>
+<h2>Teaching</h2>
   <ul>
     <li>1100152B Artificial Intelligence</li>
     <li>1119850X Data Structure</li>

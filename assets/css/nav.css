@@ -1,3 +1,53 @@
+/* Back to top button */
+#back-to-top {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 15px;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+}
+
+/* Social icons */
+.social-icons a {
+  margin: 0 5px 0 0;
+}
+
+.social-icons a.social-last {
+  margin: 0;
+}
+
+.icon-scholar,
+.icon-orcid {
+  font-size: 1.2rem;
+}
+
+.icon-cv {
+  font-size: 1.3rem;
+}
+
+/* Header */
+.header-position {
+  font-size: 1.10rem;
+}
+
+/* Footnote */
+.site-footnote {
+  font: 12px/1.2 Crimson Pro, serif;
+}
+
+/* Footer legal */
+.footer-legal {
+  font: 12px/1.2 Crimson Pro, serif;
+}
+
+/* Clustrmaps */
+.clustrmaps-container {
+  width: 100px;
+  pointer-events: none;
+}
+
 /* Simplified navigation - transparent background */
 .topnav {
   background-color: transparent;

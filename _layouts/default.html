@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ page.title }} | {{ site.title }} | {{ site.affiliation }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -28,69 +28,48 @@
     <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | prepend: site.baseurl }}">
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/nav.css' | prepend: site.baseurl }}">
-
-    <script type="text/javascript" src="{{ '/assets/js/jquery.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/assets/js/favicon-switcher.js' | prepend: site.baseurl }}" type="application/javascript"></script>
-    
-    <script type="text/javascript">
-      function toggle_vis(id) {
-          var e = document.getElementById(id);
-          if (e.style.display == 'none')
-              e.style.display = 'inline';
-          else
-              e.style.display = 'none';
-      }
-   </script>
-
-   <script>
-      function myFunction() {
-        var x = document.getElementById("myLinks");
-        var icon = document.querySelector('.topnav a.icon');
-        x.classList.toggle('open');
-        icon.classList.toggle('active');
-      }
-   </script>
-
   </head>
   <body>
-    
+
     <div class="topnav">
       <div id="myLinks">
       {% include navigation.md %}
       </div>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="toggleMobileNav()">
         <span class="icon-wrap">
           <i class="fa fa-bars icon-bars"></i>
           <i class="fa fa-xmark icon-xmark"></i>
         </span>
       </a>
-      
     </div>
-    
 
     <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | prepend: site.baseurl }}"></script>
-    <script>addBackToTop({
+    <script src="{{ '/assets/js/scale.fix.js' | prepend: site.baseurl }}"></script>
+    <script>
+      function toggleMobileNav() {
+        document.getElementById("myLinks").classList.toggle('open');
+        document.querySelector('.topnav a.icon').classList.toggle('active');
+      }
+
+      addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
         textColor: '#333'
-      })
-    </script>
-    <style>
-        #back-to-top {
-          border: 1px solid #ccc;
-          border-radius: 0;
-          font-size: 15px;
-          width: 100px;
-          text-align: center;
-          line-height: 30px;
-          height: 30px;
+      });
+
+      window.addEventListener('scroll', function() {
+        var nav = document.querySelector('.topnav');
+        if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
         }
-    </style>
-    
+      });
+    </script>
+
     <div class="wrapper">
       <header>
-        
+
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -98,7 +77,7 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <position class="header-position">{{ site.position }}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
@@ -108,44 +87,44 @@
         {% if site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
-        
+
         <br>
         <br>
 
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
+        <a href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar icon-scholar"></i>
+        </a>
         {% endif %}
 
-         {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
-          <i class="fab fa-orcid" style="font-size:1.2rem"></i>
-        </a>  
+        {% if site.orcid %}
+        <a href="{{ site.orcid }}">
+          <i class="fab fa-orcid icon-orcid"></i>
+        </a>
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <a href="{{ site.cv_link }}">
+          <i class="ai ai-cv icon-cv"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
+        <a href="{{ site.github_link }}">
+          <i class="fab fa-github icon-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        <a href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin icon-linkedin"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
+        <a class="social-last" href="{{ site.twitter }}">
+          <i class="fab fa-x-twitter icon-twitter"></i>
         </a>
         {% endif %}
         </div>
@@ -161,20 +140,30 @@
       {% if site.enable_last_update %}
       <small>Last Update:
             <script>
-              const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-              ];
               var modiDate = new Date(document.lastModified);
-              var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
+              var showAs = modiDate.getDate() + ". " + ["January","February","March","April","May","June","July","August","September","October","November","December"][modiDate.getMonth()] + " " + modiDate.getFullYear();
               document.write(showAs);
             </script>
-      </small> 
+      </small>
+      {% endif %}
+
+      {% if site.footnote %}
+      <div class="site-footnote">
+        <br>
+        <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
+      </div>
       {% endif %}
 
       <br>
-      
+      {% if site.clustrmaps_id %}
+      <div class="clustrmaps-container">
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=043361&w=153&t=n&d={{ site.clustrmaps_id }}&co=ffffff&cmo=3eb7f0&ct=043361'></script>
+      </div>
+      {% endif %}
+
       </section>
       <footer>
-        <div style="font: 12px/1.2 Crimson Pro, serif">
+        <div class="footer-legal">
         <p>
         <small>
         {% if site.imprint %}
@@ -190,16 +179,5 @@
         <br>
       </footer>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | prepend: site.baseurl }}"></script>
-    <script>
-      window.addEventListener('scroll', function() {
-        const nav = document.querySelector('.topnav');
-        if (window.scrollY > 50) {
-          nav.classList.add('scrolled');
-        } else {
-          nav.classList.remove('scrolled');
-        }
-      });
-    </script>
   </body>
 </html>
