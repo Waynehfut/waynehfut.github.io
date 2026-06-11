@@ -2,6 +2,8 @@
 
 <h4 class="section-subtitle">Conference Services</h4>
 <ul>
+  <li><a href="https://mp.weixin.qq.com/s/8XaXGPpmTu5_uxI9mdwmBA">Organizing Committee Chairs for The 1st International Conference on Digital Health and Smart Healthcare Systems (DHS 2026)</a></li>
+  <li><a href="https://mp.weixin.qq.com/s/uSGr7WAsiEM4kTPfA1RhuQ">Member of the Organizing Committee for Inaugural Conference of the Special Committee on Digital Healthcare Systems Engineering, CSSE</a></li>
   <li><a href="https://conferences.miccai.org/2026/en/default.asp">Reviewer for Medical Image Computing and Computer Assisted Intervention 2026 (MICCAI 2026)</a></li>
   <li><a href="https://2026.midl.io/">Reviewer for Medical Imaging with Deep Learning 2026 (MIDL 2026)</a></li>
   <li><a href="https://meetings.informs.org/wordpress/seattle2024/data-science-workshop/">PC member for the 2025 INFORMS Workshop on Data Science (WDS 2025)</a></li>
