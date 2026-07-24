@@ -4,6 +4,9 @@ position: Assistant Professor
 affiliation: School of Management, Hefei University of Technology
 affiliation_link: https://som.hfut.edu.cn/
 email: haowang@hfut.edu.cn
+lang: en-US
+url: https://www.drhaowang.com
+baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -58,4 +61,3 @@ exclude:
   - README_zh_Hant.md
   - LICENSE
   - minimal-light.gemspec
-

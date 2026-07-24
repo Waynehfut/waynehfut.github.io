@@ -5,13 +5,16 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="{{ site.title }}">
-    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="description" content="{{ site.description | default: site.title | escape }}">
+    <meta name="keywords" content="{{ site.keywords | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | prepend: site.baseurl }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | prepend: site.baseurl }}" type="image/png" />
     <script src="{{ '/assets/js/favicon-switcher.js' | prepend: site.baseurl }}" type="application/javascript"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -28,50 +31,110 @@
     <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | prepend: site.baseurl }}">
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/nav.css' | prepend: site.baseurl }}">
+
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
   </head>
   <body>
 
-    <div class="topnav">
+    <nav class="topnav" aria-label="Primary navigation">
       <div id="myLinks">
       {% include navigation.md %}
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="toggleMobileNav()">
-        <span class="icon-wrap">
-          <i class="fa fa-bars icon-bars"></i>
-          <i class="fa fa-xmark icon-xmark"></i>
+      <a href="#" class="icon" role="button" aria-controls="myLinks" aria-expanded="false" aria-label="Open navigation">
+        <span class="icon-wrap" aria-hidden="true">
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
         </span>
       </a>
-    </div>
+    </nav>
 
     <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/assets/js/scale.fix.js' | prepend: site.baseurl }}"></script>
     <script>
-      function toggleMobileNav() {
-        document.getElementById("myLinks").classList.toggle('open');
-        document.querySelector('.topnav a.icon').classList.toggle('active');
-      }
-
       addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
         textColor: '#333'
       });
 
-      window.addEventListener('scroll', function() {
+      (function () {
         var nav = document.querySelector('.topnav');
-        if (window.scrollY > 50) {
-          nav.classList.add('scrolled');
-        } else {
-          nav.classList.remove('scrolled');
+        var menu = document.getElementById('myLinks');
+        var toggle = nav.querySelector('a.icon');
+        var menuLinks = menu.querySelectorAll('a.normal');
+        var mobileQuery = window.matchMedia('(max-width: 960px)');
+        var scrollTicking = false;
+
+        function setMenuState(open) {
+          menu.classList.toggle('open', open);
+          toggle.classList.toggle('active', open);
+          toggle.setAttribute('aria-expanded', String(open));
+          toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
         }
-      });
+
+        function updateNavOnScroll() {
+          nav.classList.toggle('scrolled', window.scrollY > 50);
+          scrollTicking = false;
+        }
+
+        toggle.addEventListener('click', function (event) {
+          event.preventDefault();
+          setMenuState(!menu.classList.contains('open'));
+        });
+
+        toggle.addEventListener('keydown', function (event) {
+          if (event.key === ' ') {
+            event.preventDefault();
+            setMenuState(!menu.classList.contains('open'));
+          }
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && menu.classList.contains('open')) {
+            setMenuState(false);
+            toggle.focus();
+          }
+        });
+
+        menuLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            if (mobileQuery.matches) {
+              setMenuState(false);
+            }
+          });
+        });
+
+        if (typeof mobileQuery.addEventListener === 'function') {
+          mobileQuery.addEventListener('change', function () {
+            setMenuState(false);
+          });
+        }
+
+        window.addEventListener('scroll', function () {
+          if (!scrollTicking) {
+            window.requestAnimationFrame(updateNavOnScroll);
+            scrollTicking = true;
+          }
+        }, { passive: true });
+
+        updateNavOnScroll();
+      }());
     </script>
 
     <div class="wrapper">
       <header>
 
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="Portrait of {{ site.title }}" decoding="async" fetchpriority="high" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -93,37 +156,37 @@
 
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}">
+        <a href="{{ site.google_scholar }}" aria-label="Google Scholar">
           <i class="ai ai-google-scholar icon-scholar"></i>
         </a>
         {% endif %}
 
         {% if site.orcid %}
-        <a href="{{ site.orcid }}">
+        <a href="{{ site.orcid }}" aria-label="ORCID">
           <i class="fab fa-orcid icon-orcid"></i>
         </a>
         {% endif %}
 
         {% if site.cv_link %}
-        <a href="{{ site.cv_link }}">
+        <a href="{{ site.cv_link }}" aria-label="Curriculum Vitae">
           <i class="ai ai-cv icon-cv"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a href="{{ site.github_link }}">
+        <a href="{{ site.github_link }}" aria-label="GitHub">
           <i class="fab fa-github icon-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a href="{{ site.linkedin }}">
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn">
           <i class="fab fa-linkedin icon-linkedin"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
-        <a class="social-last" href="{{ site.twitter }}">
+        <a class="social-last" href="{{ site.twitter }}" aria-label="X">
           <i class="fab fa-x-twitter icon-twitter"></i>
         </a>
         {% endif %}
