@@ -21,6 +21,7 @@
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics</a></li> 
   <li><a href="https://dl.acm.org/journal/health">ACM Transactions on Computing for Healthcare</a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems With Applications</a></li>
+  <li><a href="https://www.emerald.com/ajim">Aslib Journal of Information Management</a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003">IEEE Systems Journal</a></li>
   <li><a href="https://www.tandfonline.com/journals/tjcd20">Journal of Control and Decision</a></li>
   <li><a href="https://www.nature.com/srep/">Scientific Reports</a></li>
