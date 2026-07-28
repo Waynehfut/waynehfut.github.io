@@ -16,11 +16,12 @@
 <ul>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE Transactions on Knowledge and Data Engineering</a></li>
   <li><a href="https://dl.acm.org/journal/tkdd">ACM Transactions on Knowledge Discovery from Data</a></li>
-  <li><a href="https://xplorestaging.ieee.org/xpl/aboutJournal.jsp?punumber=6488902">IEEE Transactions on Network Science and Engineering</a></li>
-  <li><a href="https://dl.acm.org/journal/health">ACM Transactions on Computing for Healthcare</a></li>
-  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics</a></li>
   <li><a href="https://www.tandfonline.com/journals/tprs20">International Journal of Production Research</a></li>
+  <li><a href="https://xplorestaging.ieee.org/xpl/aboutJournal.jsp?punumber=6488902">IEEE Transactions on Network Science and Engineering</a></li>
+  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020">IEEE Journal of Biomedical and Health Informatics</a></li> 
+  <li><a href="https://dl.acm.org/journal/health">ACM Transactions on Computing for Healthcare</a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems With Applications</a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4267003">IEEE Systems Journal</a></li>
   <li><a href="https://www.tandfonline.com/journals/tjcd20">Journal of Control and Decision</a></li>
+  <li><a href="https://www.nature.com/srep/">Scientific Reports</a></li>
 </ul>
