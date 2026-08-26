@@ -9,8 +9,9 @@ permalink: /projects/
   
   <h4 class="section-subtitle">PI</h4>
   <ul>
+    <li>From Jan 2027 to Dec 2030, National Natural Science Foundation of China, Research on Minimally Invasive Surgery Behavior Understanding and Digital Intelligence Aided Decision with Large Small Model Collaboration, 72671096</li>
     <li>From Jan 2024 to Dec 2027, Ministry of Science and Technology of China, Clinical Research Hospital Intelligence Management Platform, 2024YFF1207001</li>
-    <li>From Jan 2023 to Dec 2025, National Natural Science Foundation of China, Research on Data Driven Intelligent Quality Control Method for Minimally Invasive Surgery, 72201085, <a href="https://www.drhaowang.com/nsfc25/">Project Website</a></li>
+    <li>From Jan 2023 to Dec 2025, National Natural Science Foundation of China, Research on Data Driven Intelligent Quality Control Method for Minimally Invasive Surgery, 72201085, <a href="https://www.drhaowang.com/nsfc25/">🌏Project Website</a></li>
     <li>From May 2022 to Apr 2024, Hefei University of Technology, Research on assistant decision-making method of minimally invasive surgery based on multimodal behavior information fusion, JZ2022HGQA0140</li>
     <li>From Apr 2021 to Apr 2024, Department of Science and Technology of Anhui Province, Intelligent Wireless Endoscope, 202103a07020012</li>
     <li>From Sep 2019 to Sep 2020, China Scholarship Council, Integrated Design for Surgical Behavior Intelligent Decision-making Based on Minimally Invasive Surgery Imaging Equipment, 201906690004</li>
