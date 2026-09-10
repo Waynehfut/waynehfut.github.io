@@ -685,6 +685,10 @@ footer {
   margin-bottom: 10px;
 }
 
+.page-section .section-more {
+  margin: 30px 0 0 0;
+}
+
 /* Dark mode for page sections */
 @media (prefers-color-scheme: dark) {
   .page-section .section-subtitle {
