@@ -16,26 +16,30 @@ My research interests include **Medical Image Analysis** (Surgical Vision, Visio
 
 ## News
 
-- **[2026/08/26]** 🎉 Received the funding from the National Natural Science Foundation of China for Large-Small Model Collaborative Decision-Making in Minimally Invasive Surgery, Thanks for all.
-- **[2026/05/21]** Congratulations to Yutao, Wen and Yefeng on successfully defending their theses. Yutao will join [ZTO Express](https://www.zto.com/), Wen will join [Tencent](https://www.tencent.com/zh-cn/), and Yefeng will join [YanFeng](https://www.yanfeng.com/en).
-- **[2026/02/06]** One paper on multi-agent cooperative decision-making accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen.
-- **[2026/01/27]** One paper accepted by IJCARS, congratulations to Yutao.
-- **[2025/08/21]** One paper accepted by IEEE TMI
-- **[2025/07/20]** One paper accepted by IET Image Processing
-- **[2025/05/15]** One paper accepted by Strategic Study of CAE, congratulations to Congying
-- **[2024/12/07]** Received the funding from the Ministry of Science and Technology of China
-- **[2023/09/25]** One paper accepted by IEEE TMI
-- **[2022/09/08]** Received the funding from the National Natural Science Foundation of China
-- **[2022/04/30]** Received the funding from the Department of Science and Technology of Anhui Province
-- **[2021/12/04]** I will join the School of Management of Hefei University of Technology as a lecturer
-- **[2020/10/22]** Awarded National Scholarship
-- **[2020/07/17]** One paper accepted by ACM TKDD
-- **[2019/05/03]** Received funding from the National Scholarship Council
+<div class="news-scroll" markdown="1">
+
+- **[2026/08]** 🎉 Received the funding from the National Natural Science Foundation of China for Large-Small Model Collaborative Decision-Making in Minimally Invasive Surgery, Thanks for all.
+- **[2026/05]** Congratulations to Yutao, Wen and Yefeng on successfully defending their theses. Yutao will join [ZTO Express](https://www.zto.com/), Wen will join [Tencent](https://www.tencent.com/zh-cn/), and Yefeng will join [YanFeng](https://www.yanfeng.com/en).
+- **[2026/02]** One paper on multi-agent cooperative decision-making accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen.
+- **[2026/01]** One paper accepted by IJCARS, congratulations to Yutao.
+- **[2025/08]** One paper accepted by IEEE TMI
+- **[2025/07]** One paper accepted by IET Image Processing
+- **[2025/05]** One paper accepted by Strategic Study of CAE, congratulations to Congying
+- **[2024/12]** Received the funding from the Ministry of Science and Technology of China
+- **[2023/09]** One paper accepted by IEEE TMI
+- **[2022/09]** Received the funding from the National Natural Science Foundation of China
+- **[2022/04]** Received the funding from the Department of Science and Technology of Anhui Province
+- **[2021/12]** I will join the School of Management of Hefei University of Technology as a lecturer
+- **[2020/10]** Awarded National Scholarship
+- **[2020/07]** One paper accepted by ACM TKDD
+- **[2019/05]** Received funding from the National Scholarship Council
+
+</div>
 
 ## Select Talks
 
-- **[2026/03/21]** A invited talk by Anhui Preventive Medicine Association about Generative AI-Powered Intelligent Surgical Decision Support
-- **[2025/07/13]** A invited talk by POMS China 2025 about Dynamic surgery video summarization with balancing informativeness and diversity
-- **[2024/12/11]** A invited talk by Shanghai Jiaotong University School of Medicine about Cross domain healthcare data governance
-- **[2023/12/08]** A invited talk by Chinese Society of Biomedical Engineering about smart surgical decision
-- **[2022/08/14]** A invited talk by Renmin University of China about Deep learning in medical image analysis
+- **[2026/03]** A invited talk by Anhui Preventive Medicine Association about Generative AI-Powered Intelligent Surgical Decision Support
+- **[2025/07]** A invited talk by POMS China 2025 about Dynamic surgery video summarization with balancing informativeness and diversity
+- **[2024/12]** A invited talk by Shanghai Jiaotong University School of Medicine about Cross domain healthcare data governance
+- **[2023/12]** A invited talk by Chinese Society of Biomedical Engineering about smart surgical decision
+- **[2022/08]** A invited talk by Renmin University of China about Deep learning in medical image analysis
