@@ -1,5 +1,15 @@
 main:
 
+  - title: Research on Intelligent Assisted Decision-Making Methods for Automatic Generation of Medical Examination Reports in the Internet of Healthcare Systems (IHS) Environment
+    authors: Shuizhou Ke, <strong>Hao Wang*</strong>, Yifan Wang, Yuanyuan Zhao, Yalei Wang, Shuai Ding 
+    conference_short: CJMS
+    conference: Chinese Journal of Management Science, 2026
+    pdf: /
+    bibtex: /
+    image: /assets/img/cjms.png
+    notes: Early Accept
+    add: In Chinese
+
   - title: Research on Chronic Disease Comorbidity Decision-making Support Driven by Large Language Models in the Internet of Healthcare System Environment
     authors: <strong>Hao Wang*</strong>, Wen Chen, Xinke Li, Deguang Wang
     conference_short: FSTEM

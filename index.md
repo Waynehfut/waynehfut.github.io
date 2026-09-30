@@ -18,6 +18,7 @@ My research interests include **Medical Image Analysis** (Surgical Vision, Visio
 
 <div class="news-scroll" markdown="1">
 
+- **[2026/09]** One paper accepted by Chinese Journal of Management Science, congratulations to Shuizhou.
 - **[2026/08]** 🎉 Received the funding from the National Natural Science Foundation of China for Large-Small Model Collaborative Decision-Making in Minimally Invasive Surgery, Thanks for all.
 - **[2026/05]** Congratulations to Yutao, Wen and Yefeng on successfully defending their theses. Yutao will join [ZTO Express](https://www.zto.com/), Wen will join [Tencent](https://www.tencent.com/zh-cn/), and Yefeng will join [YanFeng](https://www.yanfeng.com/en).
 - **[2026/02]** One paper on multi-agent cooperative decision-making accepted by Frontiers of Science and Technology of Engineering Management, congratulations to Wen.
