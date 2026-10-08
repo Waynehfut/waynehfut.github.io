@@ -4,8 +4,8 @@ main:
     authors: Shuizhou Ke, <strong>Hao Wang*</strong>, Yifan Wang, Yuanyuan Zhao, Yalei Wang, Shuai Ding 
     conference_short: CJMS
     conference: Chinese Journal of Management Science, 2026
-    pdf: /
-    bibtex: /
+    pdf: /publications/
+    bibtex: /publications/
     image: /assets/img/cjms.png
     notes: Early Accept
     add: In Chinese
@@ -24,12 +24,12 @@ main:
   - title: CVS Assessment via Distillation-based Self-Supervised and Multiple Instance Learning in Laparoscopic Cholecystectomy
     authors: <strong>Hao Wang*</strong>, Yutao Zhang, Yuxuan Yang, Yuanbo Zhu, Rui Xu
     conference_short: IJCARS
-    conference: International Journal of Computer Assisted Radiology and Surgery, 2026
+    conference: International Journal of Computer Assisted Radiology and Surgery, 2026, 21:1825–1834
     pdf: https://doi.org/10.1007/s11548-026-03580-9
     code: https://github.com/Zhang-Yutao/SMIL-Framework
     bibtex: https://doi.org/10.1007/s11548-026-03580-9
     image: /assets/img/SMIL.png
-    notes: Early Accept
+  
 
   - title: Dynamic Surgery Video Summarization With Balancing Informativeness and Diversity
     authors: <strong>Hao Wang</strong>, Yiyang Su, Min Xue, Xuefei Song, Cheng Yang, Lei Shi, Xianqun Fan, Shuai Ding*
