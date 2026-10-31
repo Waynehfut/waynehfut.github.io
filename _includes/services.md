@@ -14,6 +14,7 @@
 
 <h4 class="section-subtitle">Journal Reviewer</h4>
 <ul>
+  <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42">IEEE Transactions on Medical Imaging</a></li>
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69">IEEE Transactions on Knowledge and Data Engineering</a></li>
   <li><a href="https://dl.acm.org/journal/tkdd">ACM Transactions on Knowledge Discovery from Data</a></li>
   <li><a href="https://www.tandfonline.com/journals/tprs20">International Journal of Production Research</a></li>
