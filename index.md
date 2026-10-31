@@ -39,6 +39,7 @@ My research interests include **Medical Image Analysis** (Surgical Vision, Visio
 
 ## Select Talks
 
+- **[2026/10]** A invited talk by Anhui Geriatric Medical Association about Minimally Invasive Surgical Decision-Making via Collaboration Between Large and Small Models
 - **[2026/03]** A invited talk by Anhui Preventive Medicine Association about Generative AI-Powered Intelligent Surgical Decision Support
 - **[2025/07]** A invited talk by POMS China 2025 about Dynamic surgery video summarization with balancing informativeness and diversity
 - **[2024/12]** A invited talk by Shanghai Jiaotong University School of Medicine about Cross domain healthcare data governance
