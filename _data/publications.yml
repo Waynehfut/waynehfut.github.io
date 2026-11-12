@@ -13,12 +13,11 @@ main:
   - title: Research on Chronic Disease Comorbidity Decision-making Support Driven by Large Language Models in the Internet of Healthcare System Environment
     authors: <strong>Hao Wang*</strong>, Wen Chen, Xinke Li, Deguang Wang
     conference_short: FSTEM
-    conference: Frontiers of Science and Technology of Engineering Management, 2026
+    conference: Frontiers of Science and Technology of Engineering Management, 2026, 45 (06):9-17
     pdf: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
     code: https://github.com/TeamofMIS/Chronic-Disease-Management
     bibtex: https://link.cnki.net/urlid/34.1336.N.20260310.1017.002
     image: /assets/img/lsc.png
-    notes: Early Accept
     add: In Chinese
 
   - title: CVS Assessment via Distillation-based Self-Supervised and Multiple Instance Learning in Laparoscopic Cholecystectomy
