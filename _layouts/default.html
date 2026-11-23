@@ -241,6 +241,11 @@
         <br>
         <br>
       </footer>
+      {% if site.footer_quote and site.footer_quote != "" %}
+      <footer class="site-quote">
+        {{ site.footer_quote | escape }}
+      </footer>
+      {% endif %}
     </div>
   </body>
 </html>

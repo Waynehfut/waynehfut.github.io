@@ -36,6 +36,9 @@ favicon_dark: /assets/img/favicon.png
 # footnote: This is Hao Wang's homepage. Please feel free to contact me via the mail for any question.
 # footnote_link: 
 
+# Footer quote (leave empty or remove to hide)
+footer_quote: "A person does not really understand something until after teaching it to a computer. -D.E. Knuth"
+
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
 auto_dark_mode: true
